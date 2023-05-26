@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+import sys
+
 class Calculator:
     def __init__(self):
         self.memory = 0
@@ -41,3 +44,6 @@ class Calculator:
 
     def get_memory(self):
         return self.memory
+
+
+calc = Calculator()
